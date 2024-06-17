@@ -11,12 +11,12 @@
     "hello",
     "world"
   ],
-  "main": "index.js",
+  "main": "bin/index.js",
   "bin": {
-    "code-hello": "index.js"
+    "code-hello": "bin/index.js"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node bin/index.js"
   },
   "publishConfig": {
     "access": "public"
