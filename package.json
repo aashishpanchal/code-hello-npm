@@ -1,0 +1,28 @@
+{
+  "name": "code-hello",
+  "version": "0.0.3",
+  "description": "my first npm package",
+  "author": "Aashish Panchal <aipanchal51@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "code-hello",
+    "hello world",
+    "hello-world",
+    "hello",
+    "world"
+  ],
+  "main": "index.js",
+  "bin": {
+    "code-hello": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">= 10.13.0",
+    "npm": ">= 6.11.0"
+  }
+}
